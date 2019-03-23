@@ -83,7 +83,8 @@ type Traits struct {
 	AutonomousSystemNumber       int    `json:"autonomous_system_number,omitempty"`
 	AutonomousSystemOrganization string `json:"autonomous_system_organization,omitempty"`
 	Domain                       string `json:"domain,omitempty"`
-	IsAnonymousProxy             bool   `json:"is_anonymous_proxy,omitempty"`
+	IsAnonymous                  bool   `json:"is_anonymous,omitempty"`
+	IsHostingProvider            bool   `json:"is_hosting_provider"`
 	IsSatelliteProvider          bool   `json:"is_satellite_provider,omitempty"`
 	Isp                          string `json:"isp,omitempty"`
 	IpAddress                    string `json:"ip_address,omitempty"`
